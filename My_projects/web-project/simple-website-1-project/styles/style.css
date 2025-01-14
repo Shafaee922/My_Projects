@@ -1,0 +1,32 @@
+body {
+    background-color: #c3eef8;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #b0118b;
+    text-align: center;
+}
+
+.menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: #fff;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(33, 211, 231);
+    color: #000;
+}
+
+.menu ul li {
+    display: inline-block;
+    
+}
+
+main .

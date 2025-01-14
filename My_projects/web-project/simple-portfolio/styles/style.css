@@ -1,0 +1,65 @@
+body{
+    background-color: #f5f5f5;
+    font-family: Airial;
+}
+.logo{
+    height: 150px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 4px dotted lightblue;
+}
+.child img{
+    height: 60px;
+    margin: 7px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.parent{
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 500px;
+    height: 400px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 3px 4px 15px 1px gray;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.name{
+    font-size: 25px;
+    font-weight: bolder;
+    border-bottom: 5px solid lightblue;
+    width: 220px;
+    margin: 10px auto;
+
+}
+
+.description{
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.child{
+    background-color: lightblue;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 1px 1px 10px 1px lightsalmon;
+}
+
