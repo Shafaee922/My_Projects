@@ -3,7 +3,6 @@ body {
     padding: 0;
     margin: 0;
 }
-
 .menu ul {
     list-style-type: none;
     margin: 0;
@@ -29,4 +28,19 @@ body {
     
 }
 
-main .
+.location {
+    width: 330px;
+    height: 250px;
+    
+}
+.location img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 15px 5px #b0118b;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+}
