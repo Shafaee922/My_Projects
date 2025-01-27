@@ -79,6 +79,12 @@ body{
     display: inline-block;
     margin: 0 10px;
     box-shadow: 0 0 10px 4px orchid;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
 }
 .member-pic{
     width: 100%;
@@ -92,4 +98,33 @@ body{
 .member-bio{
     padding: 13px;
     text-align: justify;
+}
+.about{
+    height: 700px;
+    background-image: url(./../images/header-bg2.jpg);
+    background-size: cover;
+    padding-top: 75px;
+    background-color: #261513cf;
+    background-blend-mode: color;
+}
+.circle h2{
+    margin: 20px;
+    font-size: 30px;
+}
+.circle p{
+    text-align: justify;
+}
+.circle{
+    width: 550px;
+    height: 550px;
+    background-color: rgba(135, 135, 135, 0.3);
+    margin: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    padding: 80px 120px;
+    color: #fff;
 }
