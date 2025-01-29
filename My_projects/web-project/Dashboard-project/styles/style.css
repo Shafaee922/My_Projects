@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --aside-color: #1B2433;
+    --bg-color: #f1f5f9;
+    --white: #ffffff;
+    --primary: #3F53E2;
+    --text-color: #34B187;
+    --text-color2: #84CDEB;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    display: grid;
+    grid-template-columns: 19% auto;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+}
+
+/* ------------------------------------- Start Aside ---------------------------------------- */
+aside {
+    box-sizing: border-box;
+    background: var(--aside-color);
+    color: var(--white);
+    padding: 20px 20px;
+}
+aside .aside-header {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    font-size: 10px;
+}
+aside .aside-header .image-cover {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+}
+
+             /* --------------start Menu cover ---------------------*/
+.menu-cover {
+    margin-top: 60px;
+}   
+.menu-cover .menu h1 {
+    font-size: 16px;
+}
+.menu-cover .menu ul {
+    padding-left: 0;
+    margin-left: 0;
+}          
+.menu-cover .menu ul li{
+    list-style-type: none;
+}
+.menu-cover .menu li a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    color: var(--white);
+    font-size: small;
+}
+.menu-cover .menu .name-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+             /* --------------end Menu cover ---------------------*/
+
+
+/* ------------------------------------- End Aside ---------------------------------------- */
