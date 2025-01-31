@@ -2,6 +2,7 @@
 
 :root {
     --aside-color: #1B2433;
+    --active-link: #273142;
     --bg-color: #f1f5f9;
     --white: #ffffff;
     --primary: #3F53E2;
@@ -25,6 +26,11 @@ aside {
     background: var(--aside-color);
     color: var(--white);
     padding: 20px 20px;
+    height: 100vh;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 aside .aside-header {
     display: flex;
@@ -43,8 +49,6 @@ aside .aside-header .image-cover {
     -o-border-radius: 50%;
     overflow: hidden;
 }
-
-             /* --------------start Menu cover ---------------------*/
 .menu-cover {
     margin-top: 60px;
 }   
@@ -57,6 +61,21 @@ aside .aside-header .image-cover {
 }          
 .menu-cover .menu ul li{
     list-style-type: none;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+}
+.menu-cover .menu ul li:hover {
+    transform: translate(10px);
+    -webkit-transform: translate(10px);
+    -moz-transform: translate(10px);
+    -ms-transform: translate(10px);
+    -o-transform: translate(10px);
+}
+.menu-cover .menu ul li:active {
+    background-color: var(--active-link);
 }
 .menu-cover .menu li a{
     display: flex;
@@ -66,14 +85,49 @@ aside .aside-header .image-cover {
     color: var(--white);
     font-size: small;
 }
+
 .menu-cover .menu .name-icon {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
 }
-
-             /* --------------end Menu cover ---------------------*/
-
+.menu-cover .menu .arrow {
+    display: flex;
+    gap: 10px;
+}
+.menu-cover .menu .arrow .bag {
+    background-color: rgb(64, 15, 210);
+    padding: 4px 8px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    font-size: smaller;
+}
 
 /* ------------------------------------- End Aside ---------------------------------------- */
+
+/*  --------------------------------------- Start header of main ------------------------------- */
+main header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--white);
+    height: 60px;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+main header .left {
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    gap: 6px;
+}
+main header .left input {
+    font-size: 17px;
+    border: 0;
+    outline: 0;
+}
+/*  --------------------------------------- End header of main ------------------------------- */
