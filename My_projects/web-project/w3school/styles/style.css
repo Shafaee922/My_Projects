@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 80px;
+    position: relative;
+}
+
+.header .left {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
+.header .left .logo {
+    position: absolute;
+    left: 0;
+    width: 15%;
+    height: 100%;
+}
+.header .left .logo img {
+    width: 80%;
+    height: 80%;
+    margin: 7.5%;
+}
+.header .left .menu {
+    width: 85%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+.header .left .menu ul {
+    list-style-type: none;
+}
+.header .left .menu ul li {
+    display: inline-block;
+    padding: 2rem 1rem;
+    font-weight: bold;
+}
+.header .left .menu ul li:hover {
+    background-color: green;
+    color: #fff;
+}
+
+.header .right {
+    width: 50%;
+    position: absolute;
+    right: 0;
+    height: 100%;
+}
+
+
+
+
+.header .right .icons {
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    text-align-last: center;
+}
+.header .right .icons i {
+    margin-top: 1.2rem;
+    padding: 0.4rem;
+    font-size: larger;
+    color: #000;
+}
+
+.header .right .btns {
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.header .right .btns button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin: 17px 5px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+.header .right .btns .pink {
+    width: 150px;
+    background-color: pink;
+}
+.header .right .btns .yellow {
+    background-color: rgb(240, 240, 111);
+    width: 170px;
+}
+.header .right .btns .green {
+    width: 90px;
+    background-color: rgb(106, 203, 106);
+}
