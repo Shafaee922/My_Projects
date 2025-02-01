@@ -130,4 +130,166 @@ main header .left input {
     border: 0;
     outline: 0;
 }
+.right .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.right .icons .dark-mod {
+    background-color: var(--bg-color);
+    height: 1.5rem;
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 4px;
+}
+.right .icons .dark-mod i {
+    color: gray;
+    font-size: larger;
+    background-color: var(--white);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.right .icons .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    padding: 4px;
+    font-size: 20px;
+    position: relative;
+}
+.right .icons .icon span {
+    width: 6px;
+    height: 6px;
+    background-color: red;
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: -5px;
+    left: 20px;
+    box-shadow: 0 0 5px 2px red;
+}
+.right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.right .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.right .profile .info {
+    line-height: 0.3;
+}
+.right .profile .info h1, p {
+    font-size: smaller;
+}
+.right .profile .profile-pic {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+}
+.right .profile .profile-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right .profile .arrow {
+    font-size: 20px;
+}
 /*  --------------------------------------- End header of main ------------------------------- */
+
+/*  ----------------------------------------- start section one ------------------------------- */
+
+.section-one {
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 25px;
+    padding: 1.6rem;
+    height: 120px;
+}
+.section-one .cart {
+    background-color: var(--white);
+    padding: 1rem;
+
+}
+.section-one .cart .cart-icon {
+    width: 2.3rem;
+    height: 2.3rem;
+    background-color: var(--bg-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    color: var(--primary)
+}
+.section-one .cart .cart-text {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.section-one .cart .cart-text .right-text {
+    line-height: 0.3;
+    font-size: small;
+}
+.section-one .cart .cart-text .left-text {
+    display: flex;
+    align-items: center;
+    color: var(--text-color)
+}
+
+/*  ----------------------------------------- end section one ------------------------------- */
+
+/*  ----------------------------------------- start section two ------------------------------- */
+
+.section-two {
+    display: grid;
+    grid-template-columns: 60% auto;
+    gap: 25px;
+    padding: 1.6rem;
+}
+.section-two .chart-one {
+    height: 300px;
+    background-color: var(--white);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.section-two .chart-two {
+    background-color: var(--white);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+/*  ----------------------------------------- end section two ------------------------------- */
