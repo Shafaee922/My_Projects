@@ -1,0 +1,102 @@
+:root {
+    --aside-color: #1E202D;
+    --bg-color: #F3F3F3;
+    --white: #FFFFFF;
+    --cart1-color: #574C91;
+    --cart2-color: #DC3546;
+    --cart3-color: #FEC107;
+    --cart4-color: #29A744;
+    --text-color: #797B7A;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--bg-color);
+}
+/* ------------------------------------- start aside ----------------------------------- */
+aside {
+    width: 18.66%;
+    height: 100vh;
+    background-color: var(--aside-color);
+    color: var(--white);
+    padding-left: 8px;
+}
+
+aside .aside-header .title {
+    height: 60px;
+    text-align: center;
+    padding-top: 12px;
+}
+aside .aside-header .profile {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+aside .aside-header .profile .profile-pic {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+
+}
+aside .aside-header .profile .profile-pic img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+aside .aside-header .profile .profile-info h2 {
+    font-size: 14px;
+}
+aside .aside-header .profile .profile-info p {
+    font-size: 12px;
+}
+aside .menu .text {
+    color: var(--text-color)
+}
+aside .menu .text li a {
+    color: var(--text-color)
+}
+
+aside .menu ul {
+    padding-top: 20px;
+}
+aside .menu ul h2 {
+    font-size: smaller;
+    color: var(--text-color)
+}
+aside .menu ul li {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+}
+aside .menu ul li:hover {
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    background-color: rgb(45, 45, 70);
+}
+aside .menu ul li a {
+    color: var(--white);
+    text-decoration: none;
+}
+/* ------------------------------------- end aside ----------------------------------- */
+
+/*  ------------------------------------- start main header -------------------------------- */
+main {
+    width: 81%;
+}
+
+
+/*  ------------------------------------- end main header -------------------------------- */
