@@ -16,10 +16,11 @@
 }
 body {
     background-color: var(--bg-color);
+    display: grid;
+    grid-template-columns: 18.66% auto;
 }
 /* ------------------------------------- start aside ----------------------------------- */
 aside {
-    width: 18.66%;
     height: 100vh;
     background-color: var(--aside-color);
     color: var(--white);
@@ -78,6 +79,11 @@ aside .menu ul li {
     display: flex;
     gap: 20px;
     padding: 10px 20px;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
 }
 aside .menu ul li:hover {
     transform: scale(0.9);
@@ -95,8 +101,121 @@ aside .menu ul li a {
 
 /*  ------------------------------------- start main header -------------------------------- */
 main {
-    width: 81%;
+    position: relative;
+}
+main header .header {
+    background-color: var(--white);
+    height: 110px;
+    padding: 15px 25px;
+}
+main header .header .left {
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    justify-content: start;
+}
+main header .header .left .menu-bar {
+    font-size: 22px;
+    display: flex;
+    align-items: start;
+}
+main header .header .left .search {
+    display: flex;
+    align-items: center;
+    background-color: var(--bg-color);
+    padding-right: 15px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+main header .header .left .search input {
+    padding: 8px 14px;
+    border: none;
+    outline: none;
+    background-color: var(--bg-color);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+main header .header {
+    display: flex;
+    justify-content: space-between;
+}
+main header .header .right {
+    display: flex;
+    font-size: 16px;
+    gap: 16px;
+}
+main header .header .right i {
+    font-size: 20px;
+    color: var(--text-color)
+}
+main header .header .right .details {
+    display: flex;
+    gap: 6px;
+}
+main header .header .right .details i {
+    font-size: 12px;
+    color: var(--text-color)
 }
 
-
 /*  ------------------------------------- end main header -------------------------------- */
+/* -------------------------------------- start main body ----------------------------------- */
+main .dashboard-text {
+    background-color: var(--white);
+    height: 70px;
+    width: 94%;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    box-shadow: 0 0 4px 1px rgb(225, 225, 225);
+    padding-left: 25px;
+    padding-top: 20px;
+}
+main .section-one {
+    display: grid;
+    gap: 28px;
+    grid-template-columns: 22.75% 22.75% 22.75% 22.75%;
+    width: 94%;
+    margin: 54px auto;
+}
+main .section-one .carts {
+    height: 100px;
+    background-color: var(--white);
+    box-shadow: 0 0 4px 1px rgb(225, 225, 225);
+    padding: 12px;
+    display: flex;
+    gap: 16px;
+}
+main .section-one .carts .shape {
+    height: 75px;
+    width: 75px;
+    color: var(--white);
+    font-size: 26px;
+    text-align: center;
+    padding-top: 22px;
+}
+main .section-one .carts .shape1 {
+    background-color: var(--cart1-color);
+}
+main .section-one .carts .shape2 {
+    background-color: var(--cart2-color);
+}
+main .section-one .carts .shape3 {
+    background-color: var(--cart3-color);
+}
+main .section-one .carts .shape4 {
+    background-color: var(--cart4-color);
+}
+main .section-one .carts .text {
+    margin-top: 16px;
+}
+main .section-one .carts .text p {
+    font-size: small;
+    margin-bottom: 6px;
+}
+/* -------------------------------------- end main body ----------------------------------- */
