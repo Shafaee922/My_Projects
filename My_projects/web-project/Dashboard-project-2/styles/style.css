@@ -18,6 +18,7 @@ body {
     background-color: var(--bg-color);
     display: grid;
     grid-template-columns: 18.66% auto;
+    
 }
 /* ------------------------------------- start aside ----------------------------------- */
 aside {

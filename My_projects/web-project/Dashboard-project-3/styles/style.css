@@ -1,0 +1,19 @@
+:root {
+    --aside-color: #191C24;
+    --pink-left: #92196B;
+    --pink-right: #D11459;
+    --green: #00D35B;
+    --text-color: #556688;
+    --white: #FFFFFF;
+    --adtive-color: #0F0F13;
+    --black: #000000;
+    --blue: #018FE7;
+    --purple: #905FEA;
+    --orange: #FC4149;
+    --yellow: #FFAB00;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
