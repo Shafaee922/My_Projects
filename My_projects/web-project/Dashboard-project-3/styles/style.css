@@ -17,3 +17,92 @@
     padding: 0;
     margin: 0;
 }
+body {
+    background-color: var(--black);
+    display: grid;
+    grid-template-columns: 18.5% auto;
+    color: white;
+}
+/* -------------------------------- Start Aside ---------------------------------- */
+aside {
+    background-color: var(--aside-color);
+    padding: 14px;
+    height: 100vh;
+}
+aside .top .title {
+    margin-top: 14px;
+    margin-bottom: 24px;
+}
+aside .top .profile {
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+aside .top .profile .cover-iamge {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+}
+aside .top .profile .cover-iamge img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+aside .top .profile .info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+aside .top .profile .info .name h2 {
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+aside .top .profile .info .name p {
+    font-size: 12px;
+    color:var(--text-color)
+}
+aside .top .profile .info i {
+    font-size: 16px;
+    color: var(--text-color)
+}
+
+aside .bottom h2 {
+    font-size: small;
+    color: var(--text-color);
+    margin: 16px 0;
+}
+aside .bottom ul li {
+    list-style-type: none;
+    padding: 10px;
+}
+aside .bottom ul li a {
+    text-decoration: none;
+}
+aside .bottom ul li .item {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+aside .bottom ul li .item i {
+    color: var(--purple);
+    font-size: 14px;
+}
+aside .bottom ul li .item p {
+    color: var(--text-color);
+    font-size: 14px;
+}
+aside .bottom ul li .item i .orange {
+    color: var(--orange)
+}
+
+
+/* -------------------------------- End Aside ---------------------------------- */
+
