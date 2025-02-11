@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: lightcyan;
+}
+body div {
+    width: 300px;
+    height: 300px;
+    background-color: #ffd15c;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 3px 4px 10px 1px gray;
+}
+body div input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgb(230, 253, 253);
+}
+body div input.btn {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: green;
+    color: #fff;
+}
+body div p {
+    font-size: 18px;
+}
+body div p a {
+    text-decoration: none;
+    color: green;
+}
