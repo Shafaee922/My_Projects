@@ -114,3 +114,60 @@ body {
     background-color: #0f14ac;
     color: #fff;
 }
+
+h2 {
+    margin: 40px;
+    color: orange;
+}
+#about {
+    text-align: center;
+    padding: 3rem;
+}
+#about img {
+    width: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 40px;
+}
+#about p {
+    text-align: justify;
+}
+#about p strong {
+    color: orange;
+}
+
+#skill {
+    text-align: center;
+    margin: 40px;
+}
+#skill ul {
+    margin: 20px;
+    list-style-type: none;
+}
+
+#experience {
+    padding: 40px;
+    text-align: center;
+}
+#experience ul li {
+    line-height: 30px;
+    list-style-type: none;
+}
+#experience ul li strong {
+    color: orange;
+}
+#contact {
+    text-align: center;
+    padding: 40px;
+    line-height: 30px;
+}
+#contact p strong {
+    color: orange;
+}
+#contact p a {
+    text-decoration: none;
+    color: #fff;
+}
