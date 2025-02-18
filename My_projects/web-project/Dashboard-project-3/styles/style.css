@@ -144,11 +144,20 @@ main .header .left input {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+main .header .right {
+    position: relative;
+}
 main .header .right .icons {
     display: flex;
     gap: 30px;
     align-items: center;
     padding: 14px;
+}
+main .header .right .green {
+    width: 20px;
+    height: 30px;
+    color: green;
+    position: absolute;
 }
 main .header .right .icons button {
     padding: 6px;
@@ -159,6 +168,23 @@ main .header .right .icons button {
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
     color: var(--white);
+}
+main .top {
+    border:1px solid red;
+    height: 80px;
+    margin: 26px;
+}
+main .top .left {
+    width: 50%;
+    position: relative;
+    display: flex;
+    gap: 130px;
+}
+main .top .left img {
+    width: 70px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
 }
 
 /* -------------------------------- End Main Header ---------------------------------- */
