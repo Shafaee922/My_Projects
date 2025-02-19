@@ -170,21 +170,57 @@ main .header .right .icons button {
     color: var(--white);
 }
 main .top {
-    border:1px solid red;
-    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
     margin: 26px;
+    background-image: linear-gradient(to right, var(--pink-left), var(--pink-right));
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
 }
 main .top .left {
+    height: 70px;   
     width: 50%;
     position: relative;
-    display: flex;
-    gap: 130px;
 }
-main .top .left img {
-    width: 70px;
+main .top .left .image-cover {
+    width: 20%;
+    height: 68px;
     position: absolute;
-    top: 8px;
     left: 20px;
+}
+main .top .left .image-cover img {
+    height: 100%;
+    width: 100%;
+}
+main .top .left .text {
+    position: absolute;
+    left: 140px;
+    top: 8px;
+}
+main .top .right{
+    width: 50%;
+    height: 68px;
+    position: relative;
+    position: relative;
+} 
+main .top .right button {
+    padding: 12px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    position: absolute;
+    background-color: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    position: absolute;
+    top: 14px;
+    left: 68%;
 }
 
 /* -------------------------------- End Main Header ---------------------------------- */
