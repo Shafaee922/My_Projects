@@ -225,6 +225,40 @@ main .top .right button {
 
 /* -------------------------------- End Main Header ---------------------------------- */
 
+/* -------------------------------- Start Carts Section ---------------------------------- */
+main .carts {
+    display: grid;
+    gap: 30px;
+    margin: 26px;
+    grid-template-columns: auto auto auto auto;
+    
+}
+main .carts .cart {
+    height: 90px;
+    border-radius: 6px;
+    background-color: var(--aside-color);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding: 20px;
+}
+main .carts .cart p {
+    font-size: small;
+    color: var(--text-color);
+    margin-top: 5px;
+}
+main .carts .cart .title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+main .carts .cart .title span {
+    color: var(--green);
+}
+/* -------------------------------- End Carts Section ---------------------------------- */
+
+
 
 
 
