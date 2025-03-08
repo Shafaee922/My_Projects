@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #080808;
+    color: #fff;
+}
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/bg1.png");
+    background-size: cover;
+    background-position: center;
+}
+#header .head {
+    padding: 10px 10%;
+}
+#header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header .head nav h2 {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+#header .head nav h2 span {
+    color: red;
+}
+#header .head nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    list-style-type: none;
+}
+#header .head nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: relative;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+}
+#header .head nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+}
+#header .head nav ul li a:hover::after {
+    width: 100%;
+}
+#header .head nav ul li a:hover{
+    font-size: 22px;
+}
+#header .head .head-text {
+    margin-top: 20%;
+    font-size: 18px;
+}
+#header .head .head-text h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+#header .head .head-text h1 span{
+    color: red;
+}
