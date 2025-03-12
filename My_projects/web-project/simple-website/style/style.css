@@ -101,3 +101,35 @@ body {
     -o-border-radius: 1.5rem;
     box-shadow: 7px 7px 20px 1px gray;
 }
+
+
+/*  *********************** Start the main part ******************************** */
+
+.works-text {
+    margin-top: 6rem ;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.works-main {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+}
+.works-cards {
+    max-width: 16rem;
+}
+.works-img {
+    max-width: 26rem;
+    border-radius: 1.5rem;
+    -webkit-border-radius: 1.5rem;
+    -moz-border-radius: 1.5rem;
+    -ms-border-radius: 1.5rem;
+    -o-border-radius: 1.5rem;
+    overflow: hidden;
+    box-shadow: 7px 7px 20px 1px gray;
+    margin: auto;
+    margin-top: 3rem;
+}
+.works-img-img {
+    width: 100%;
+}
