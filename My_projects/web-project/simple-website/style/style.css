@@ -6,9 +6,11 @@
 body {
     background-color: #f3f3f3;
     font-size: small;
-    width: 70%;
     margin: auto;
     color: rgb(64, 63, 63);
+}
+.container {
+    padding: 0.3rem 10rem;
 }
 .header-menu-container {
     display: flex;
@@ -100,8 +102,20 @@ body {
     -ms-border-radius: 1.5rem;
     -o-border-radius: 1.5rem;
     box-shadow: 7px 7px 20px 1px gray;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
 }
-
+.header-main-right-img:hover {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    box-shadow: 7px 7px 20px 1px rgb(222, 51, 241);
+}
 
 /*  *********************** Start the main part ******************************** */
 
@@ -120,6 +134,7 @@ body {
 }
 .works-img {
     max-width: 26rem;
+    max-height: 16rem;
     border-radius: 1.5rem;
     -webkit-border-radius: 1.5rem;
     -moz-border-radius: 1.5rem;
@@ -129,40 +144,81 @@ body {
     box-shadow: 7px 7px 20px 1px gray;
     margin: auto;
     margin-top: 3rem;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+}
+.works-img:hover {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    box-shadow: 7px 7px 20px 1px rgb(222, 51, 241);
 }
 .works-img-img {
     width: 100%;
+    height: 100%;
 }
 /*  ********************************* Start comment part ********************************************  */
-
+.comment-container {
+    background-color: purple;
+    margin-top: 4rem;
+}
 .comment-part {
-    padding: 4rem;
+    padding: 2rem;
     text-align: center;
     line-height: 1.5rem;
+    color: #fff;
+}
+.comment-part-title {
+    margin-bottom: 0.8rem;
 }
 .carts {
-    background-color: purple;
-    color: rgb(167, 164, 164);
+    box-shadow: 3px 3px 20px 1px #000;
+    background-color: rgb(180, 178, 178);
+    color: #000;
     padding: 0.7rem;
     border-radius: 0.8rem;
     -webkit-border-radius: 0.8rem;
     -moz-border-radius: 0.8rem;
     -ms-border-radius: 0.8rem;
     -o-border-radius: 0.8rem;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+}
+.carts:hover {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    box-shadow: 3px 3px 20px 4px rgb(51, 225, 241);
 }
 .comments-carts {
     display: flex;
-    margin-top: 2rem;
+    margin-top: 3rem;
     gap: 2rem;
 }
 .cart-content-text {
     font-style: italic;
 }
 .cart-info {
-    border-top: 1px solid #fff;
+    border-top: 1px solid rgb(167, 164, 164);
     display: flex;
     align-items: center;
     gap: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 0.5rem;
+}
+.cart-info-title {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 
