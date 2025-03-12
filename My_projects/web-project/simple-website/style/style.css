@@ -133,3 +133,47 @@ body {
 .works-img-img {
     width: 100%;
 }
+/*  ********************************* Start comment part ********************************************  */
+
+.comment-part {
+    padding: 4rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+.carts {
+    background-color: purple;
+    color: rgb(167, 164, 164);
+    padding: 0.7rem;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
+}
+.comments-carts {
+    display: flex;
+    margin-top: 2rem;
+    gap: 2rem;
+}
+.cart-content-text {
+    font-style: italic;
+}
+.cart-info {
+    border-top: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.cart-info-img {
+    width: 2rem;
+    height: 2rem;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
