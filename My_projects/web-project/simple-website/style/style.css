@@ -269,3 +269,47 @@ body {
     font-size: 1.2rem;
     font-weight: 800;
 }
+/*  *********************** Start portfolio part *********************************** */
+
+.portfolio-container {
+    text-align: center;
+    margin: 2.2rem 0;
+    line-height: 2rem;
+
+}
+.portfolio-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.portfolio-img {
+    width: 18rem;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    box-shadow: 0 0 20px 1px #f756cc;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+}
+.portfolio-img:nth-child(odd) {
+    box-shadow: 0 0 20px 1px rgb(49, 148, 214);
+}
+.portfolio-img:hover {
+    box-shadow: 0 0 20px 1px rgb(38, 242, 62);
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+}
+.portfolio-img-img {
+    width: 100%;
+}
