@@ -232,4 +232,40 @@ body {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
 }
-
+.logo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+}
+.logo-img-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.logo-img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    box-shadow: 3px 4px 10px 1px #000;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+}
+.logo-img:hover {
+    box-shadow: 3px 4px 10px 1px rgb(51, 225, 241);
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.logo-name {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
