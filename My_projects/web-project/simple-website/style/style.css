@@ -8,6 +8,7 @@ body {
     font-size: small;
     margin: auto;
     color: rgb(64, 63, 63);
+    height: 100vh;
 }
 .container {
     padding: 0.3rem 10rem;
@@ -17,6 +18,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 1.3rem;
+    cursor: pointer;
 }
 .nav {
     display: flex;
@@ -49,6 +51,10 @@ body {
     -moz-border-radius: 0.4rem;
     -ms-border-radius: 0.4rem;
     -o-border-radius: 0.4rem;
+}
+.show-menu-btn {
+    font-size: 1.6rem;
+    display: none;
 }
 /*  header main part */
 
@@ -313,3 +319,73 @@ body {
 .portfolio-img-img {
     width: 100%;
 }
+
+/*  ************************** Start footer part ********************************** */
+.footer-input-part {
+    background-color: purple;
+}
+.footer-input-container {
+    display: flex;
+    padding: 4rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-input-part-text {
+    font-size: 18px;
+    color: #fff;
+}
+.footer-input-box {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 16rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.5rem;
+}
+.footer-input {
+    border: none;
+    outline: none;
+}
+.footer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c907c9;
+    border: none;
+    padding: 0.6rem 0.9rem;
+    border-radius: 0.5rem;
+}
+.copy-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+
+/*  ------------------------------------- Start Responsive ------------------------------------ */
+.header-menu-res {
+    background-color: rgba(144, 6, 144, 0.7);
+    height: 100vh;
+    width: 12rem;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 4px 10px 1px gray;
+}
+.header-menu-res .menu {
+    margin-bottom: 1.2rem;
+}
+.header-menu-res .header-link {
+    color: #fff;
+}
+.hide-menu {
+    font-size: 2.3rem;
+    position: fixed;
+    top: -4px;
+    left: 164px;
+    color: #fff;
+}
+
