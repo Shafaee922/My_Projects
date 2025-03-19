@@ -55,12 +55,14 @@ body {
 }
 .upper-header-contact a {
     text-decoration: none;
+    color: #000;
 }
 .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1.3rem 0;
+    position: sticky;
 }
 .logo-container {
     width: 3rem;
@@ -80,3 +82,20 @@ body {
 .link-item {
     text-decoration: none;
 }
+/*  -------------------------------------- Header Main Part ------------------------------------ */
+.header-main {
+    height: 50rem;
+    background-image: linear-gradient(to right bottom, 
+        rgba(41, 39, 39, 0.4), 
+        rgba(74, 72, 72, 0.4)), 
+        url('../images/header-bg.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.header-main {
+    text-align: center;
+    padding-top: 5rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
