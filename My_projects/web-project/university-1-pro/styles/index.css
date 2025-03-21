@@ -81,6 +81,9 @@ body {
 .link-item {
     text-decoration: none;
 }
+.link-item:hover {
+    color: rgb(255, 42, 0);
+}
 /*  -------------------------------------- Header Main Part ------------------------------------ */
 .header-main {
     height: 50rem;
@@ -149,3 +152,85 @@ body {
 }
 
 
+
+
+.how-it-work {
+    padding-top: 10rem;
+    text-align: center;
+}
+.how-work-title {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+.how-work-text {
+    font-size: 18px;
+    margin-bottom: 4rem;
+}
+.how-work-cart-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 7rem;
+}
+.how-work-cart {
+    background-color: #fff;
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    box-shadow: 3px 4px 10px 1px lightgray;
+    transition: all 350ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 350ms;
+    -ms-transition: all 350ms;
+    -o-transition: all 350ms;
+}
+.how-work-cart:hover {
+    background-color: #ff545a;
+    color: white;
+    transform: scale(1.03);
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    box-shadow: 3px 4px 15px 1px rgb(92, 91, 91);
+    .read-more-btn,
+    .how-work-cart-icon {
+        color: #ff545a;
+        box-shadow: 3px 4px 10px 1px rgb(62, 62, 62);
+        font-weight: bold;
+        background-color: #fff;
+    }    
+}
+.how-work-cart-icon {
+    margin: auto;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    box-shadow: 3px 4px 10px 1px lightgray;
+    margin-bottom: 2.5rem;
+}
+.how-work-cart-title {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 1.2rem
+}
+.how-work-cart-text {
+    line-height: 1.6rem;
+}
+.read-more-btn {
+    padding: 0.7rem 1.3rem;
+    background-color: #f3f3f3;
+    outline: none;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 3px 4px 10px 1px lightgray;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
