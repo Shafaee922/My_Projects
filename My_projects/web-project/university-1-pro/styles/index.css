@@ -285,16 +285,16 @@ body {
     margin-bottom: 0.5rem;
 }
 /* ------------------------------------------ start explore part ----------------------------------------- */
-.explore {
-    text-align: center;
-}
+
 .explore-title {
     text-transform: uppercase;
     font-size: 1.6rem;
+    text-align: center;
 }
-.explore-main-text {
+.explore-text {
+    text-align: center;
     font-size: 1.3rem;
-    margin: 1.8rem;
+    margin: 2rem;
 }
 .explore-cart-container {
     display: grid;
@@ -326,6 +326,9 @@ body {
     -ms-transform: scale(1.02);
     -o-transform: scale(1.02);
 }
+.explore-img-container {
+    height: 48%;
+}
 .explore-image {
     width: 100%;
     height: 100%;
@@ -337,6 +340,10 @@ body {
     margin-top: 0.6rem;
     margin-bottom: 1.8rem;
     text-transform: capitalize;
+}
+.explore-main-text {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
 }
 .ex-main-body {
     display: grid;
@@ -372,4 +379,104 @@ body {
 .explore-icon {
     list-style-type: none;
 }
+/* ------------------------------------------ End explore part ----------------------------------------- */
+/* ------------------------------------------ start Footer part ----------------------------------------- */
+
+.footer-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.footer-text {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 2rem;
+}
+.input-container {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+.input {
+    outline: none;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    padding-right: 8rem;
+    margin-right: 2rem;
+    box-shadow: 0 0 15px 1px gray;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+.input-btn {
+    border: none;
+    background-color: #ff545a;
+    font-size: 1rem;
+    padding: 1rem;
+    color: #fff;
+    box-shadow: 0 0 15px 1px gray;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+}
+.input-btn:hover {
+    background-color: green;
+}
+.footer-end {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid gray;
+    padding: 3rem 0;
+}
+.footer-links {
+    list-style-type: none;
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+.footer-btn {
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    box-shadow: 0 0 15px 1px rgb(154, 153, 153);
+}
+.footer-btn a {
+    text-decoration: none;
+    color: #000;
+}
+.footer-img-container {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 15px 1px gray;
+}
+.ifooter-img-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* ------------------------------------------ End Footer part ----------------------------------------- */
+
+
 
