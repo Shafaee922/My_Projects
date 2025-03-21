@@ -285,5 +285,91 @@ body {
     margin-bottom: 0.5rem;
 }
 /* ------------------------------------------ start explore part ----------------------------------------- */
-
+.explore {
+    text-align: center;
+}
+.explore-title {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+}
+.explore-main-text {
+    font-size: 1.3rem;
+    margin: 1.8rem;
+}
+.explore-cart-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 8rem;
+}
+.explore-cart {
+    border-radius: 1.3rem;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 0 0 20px 4px rgb(165, 165, 165);
+    transition: all 150ms;
+    -webkit-transition: all 150ms;
+    -moz-transition: all 150ms;
+    -ms-transition: all 150ms;
+    -o-transition: all 150ms;
+    -webkit-border-radius: 1.3rem;
+    -moz-border-radius: 1.3rem;
+    -ms-border-radius: 1.3rem;
+    -o-border-radius: 1.3rem;
+}
+.explore-cart:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px 5px rgb(121, 120, 120);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+}
+.explore-image {
+    width: 100%;
+    height: 100%;
+}
+.explore-main-footer-container {
+    padding: 1rem;
+}
+.explore-cart-title {
+    margin-top: 0.6rem;
+    margin-bottom: 1.8rem;
+    text-transform: capitalize;
+}
+.ex-main-body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    margin-bottom: 1.8rem;
+}
+.explore-main-logo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 1rem;
+}
+.explore-logo {
+    width: 100%;
+    height: 100%;
+}
+.explore-footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    padding-top: 1.6rem;
+    padding-bottom: 0.6rem;
+}
+.explore-link {
+    color: #ff545a;
+    text-decoration: none;
+}
+.explore-icons {
+    display: flex;
+    gap: 1.4rem;
+}
+.explore-icon {
+    list-style-type: none;
+}
 
