@@ -150,12 +150,57 @@ body {
     font-size: 1.2rem;
     font-weight: bolder;
 }
-
-
-
-
+/*  ------------------------------ Start main part small carts -------------------------- */
+.main {
+    position: relative;
+}
+.small-carts-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1.6rem;
+    position: absolute;
+    top: -6rem;
+}
+.small-cart {
+    background-color: #fff;
+    text-align: center;
+    padding: 1.6rem;
+    border-radius: 0.5rem;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+    box-shadow: 3px 4px 10px 1px lightgray;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+    width: 12.9rem;
+}
+.small-cart:hover {
+    background-color: #ff545a;
+    color: #fff;
+    transform: scale(1.06);
+    -webkit-transform: scale(1.06);
+    -moz-transform: scale(1.06);
+    -ms-transform: scale(1.06);
+    -o-transform: scale(1.06);
+    box-shadow: 3px 4px 10px 1px rgb(119, 118, 118);
+}
+.small-cart-title {
+    text-transform: capitalize;
+    font-size: 20px;
+    margin: 1rem;
+}
+.small-cart-text {
+    font-size: 18px;
+}
+.sml-cart-icon {
+    font-size: 4rem;
+}
 .how-it-work {
-    padding-top: 10rem;
+    padding-top: 13rem;
     text-align: center;
 }
 .how-work-title {
@@ -175,11 +220,11 @@ body {
 .how-work-cart {
     background-color: #fff;
     padding: 3rem 2rem;
-    border-radius: 0.5rem;
-    -webkit-border-radius: 0.5rem;
-    -moz-border-radius: 0.5rem;
-    -ms-border-radius: 0.5rem;
-    -o-border-radius: 0.5rem;
+    border-radius: 0.8rem;
+    -webkit-border-radius: 0.8rem;
+    -moz-border-radius: 0.8rem;
+    -ms-border-radius: 0.8rem;
+    -o-border-radius: 0.8rem;
     box-shadow: 3px 4px 10px 1px lightgray;
     transition: all 350ms;
     -webkit-transition: all 250ms;
@@ -212,9 +257,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f3f3f3;
-    box-shadow: 3px 4px 10px 1px lightgray;
+    background-color: #ff545a;
+    color: #fff;
+    box-shadow: 3px 4px 10px 1px rgb(193, 192, 192);
     margin-bottom: 2.5rem;
+}
+.how-icon {
+    font-size: 2rem;
 }
 .how-work-cart-title {
     text-transform: uppercase;
@@ -226,11 +275,15 @@ body {
 }
 .read-more-btn {
     padding: 0.7rem 1.3rem;
-    background-color: #f3f3f3;
+    background-color: #ff545a;
+    color: #fff;
     outline: none;
     border: none;
     border-radius: 0.5rem;
-    box-shadow: 3px 4px 10px 1px lightgray;
+    box-shadow: 3px 4px 10px 1px rgb(188, 187, 187);
     margin-top: 2rem;
     margin-bottom: 0.5rem;
 }
+/* ------------------------------------------ start explore part ----------------------------------------- */
+
+
