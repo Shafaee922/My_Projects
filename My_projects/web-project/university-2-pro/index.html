@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Khuda Dad Shafaee">
+    <meta name="description" content="working on nationality card for university 2 project">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>فورمه درخواستی شخص انفرادی</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info-0">
+            <h1>فورمه درخواستی شخص انفرادی</h1>
+            <p>
+                فورمه درخواستی شخص انفرادی به منظور ثبت ويا(تجديد) يک شخص انفرادی وهرنهاد انفرادی که اين شخص يگانه مالک آن می باشد،استفاده ميگردد. ماليه دهنده انفرادی يک شخصيت حقيقی
+                ميباشد (نه نهاد حقوقی)
+                بخش -١ " دليل تکميل فورمه " را جهت خانه پری ضمايم وفورمه های مناسب به دقت مطالعه نمائيد. 
+            </p>
+        </div>
+        <div class="info-1">
+            <form>
+                <h2>معلومات عمومی</h2>
+        
+                <label for="name">نام:</label>
+                <input type="text" id="name" name="name" required placeholder="نام خود را تایپ کنید.">
+        
+                <label for="lastname">تخلص:</label>
+                <input type="text" id="lastname" name="lastname" required placeholder="تخلص خود را تایپ کنید.">
+        
+                <label>جنس:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="male" required> ذکور</label>
+                    <label><input type="radio" name="gender" value="female"> اناث</label>
+                </div>
+        
+                <label for="dob">تاریخ تولد:</label>
+                <input type="date" id="dob" name="dob" required>
+        
+                <label for="birthplace">محل تولد (ولایت):</label>
+                <input type="text" id="birthplace" name="birthplace" required placeholder="محل تولد خود را تایپ کنید.">
+        
+                <label for="nationality">ملیت:</label>
+                <input type="text" id="nationality" name="nationality" placeholder="ملیت خود را تایپ کنید.">
+        
+                <label for="job">شغل:</label>
+                <input type="text" id="job" name="job" placeholder="شغل خود را تایپ کنید.">
+        
+                <label for="mobile">شماره موبایل:</label>
+                <input type="text" id="mobile" name="mobile" required placeholder="شماره موبایل خود را تایپ کنید.">
+        
+                <label for="email">ایمل آدرس: </label>
+                <input type="email" id="email" name="email" placeholder="ایمل آدرس خود را تایپ کنید.">
+        
+                <label for="language">زبان مورد نظر: </label>
+                <select id="language" name="language" required>
+                    <option value="دری">دری</option>
+                    <option value="پشتو">پشتو</option>
+                    <option value="انگلیسی">انگلیسی</option>
+                </select>
+        
+                <label>حالت مدنی:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="marital_status" value="single" required> مجرد</label>
+                    <label><input type="radio" name="marital_status" value="married"> متاهل</label>
+                    <label><input type="radio" name="marital_status" value="divorced"> طلاق شده</label>
+                </div>
+        
+                <button type="submit">ارسال</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

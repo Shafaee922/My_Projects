@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f1f1f1;
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+.info-0 {
+    background-color: #f9f9f9;
+    border-radius: 1.4rem;
+    -webkit-border-radius: 1.4rem;
+    -moz-border-radius: 1.4rem;
+    -ms-border-radius: 1.4rem;
+    -o-border-radius: 1.4rem;
+    padding: 3rem;
+    margin-top: 4rem;
+    box-shadow: 0 0 15px 1px gray;
+}
+.info-0 h1 {
+    text-align: center;
+    margin: 1.2rem;
+}
+form {
+    margin: auto;
+    padding: 3rem;
+    border-radius: 1.4rem;
+    background-color: #f9f9f9;
+    -webkit-border-radius: 1.4rem;
+    -moz-border-radius: 1.4rem;
+    -ms-border-radius: 1.4rem;
+    -o-border-radius: 1.4rem;
+    box-shadow: 0 0 15px 1px gray;
+    margin-top: 4rem;
+}
+form h2 {
+    text-align: center;
+    margin: 1.2rem;
+}
+label {
+    display: block;
+    margin: 1rem 0 0.6rem 0;
+    font-weight: bold;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    padding-right: 2rem;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3rem;
+    outline: none;
+    border: none;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+}
+button[type = "submit"] {
+    border-radius: 3rem;
+}
+input[type = "text"],
+input[type = "email"],
+input[type = "date"],
+#language,
+button {
+    box-shadow: 0 0 10px 1px rgb(152, 151, 151);
+}
+.radio-group {
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}

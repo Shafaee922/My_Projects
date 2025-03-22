@@ -364,28 +364,4 @@ body {
 
 
 /*  ------------------------------------- Start Responsive ------------------------------------ */
-.header-menu-res {
-    background-color: rgba(144, 6, 144, 0.7);
-    height: 100vh;
-    width: 12rem;
-    font-size: 1.2rem;
-    padding-top: 2rem;
-    position: fixed;
-    top: 0;
-    left: 0;
-    box-shadow: 3px 4px 10px 1px gray;
-}
-.header-menu-res .menu {
-    margin-bottom: 1.2rem;
-}
-.header-menu-res .header-link {
-    color: #fff;
-}
-.hide-menu {
-    font-size: 2.3rem;
-    position: fixed;
-    top: -4px;
-    left: 164px;
-    color: #fff;
-}
 
