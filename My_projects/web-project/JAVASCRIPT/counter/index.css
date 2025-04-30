@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 550px;
+    height: 400px;
+    margin: 90px auto;
+    border-radius: 25px;
+    background-color: black;
+    box-shadow: 0 0 15px 1px gray;
+    color: #fff;
+    text-align: center;
+}
+#number {
+    font-size: 250px;
+}
+#decrease, #increase, #reset {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 105px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid #fff;
+    color: #fff;
+}
+#reset {
+    margin: 0 15px;
+}
+#increase:hover {
+    border: 3px solid green;
+    color: green;
+}
+#decrease:hover {
+    border: 3px solid red;
+    color: red;
+}

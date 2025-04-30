@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f3f3f3;
+}
+/* ********************************* Start Header Section ******************************* */
+
+.container {
+    width: 80%;
+    margin: auto;
+    box-shadow: 3px 4px 15px 1px rgb(66, 65, 65);
+}
+.head .nav {
+    padding: 6px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+}
+.head .nav .links {
+    display: flex;
+    gap: 30px;
+}
+.head .nav .logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 0 10px 1px lightgray;
+}
+.head .nav .logo .logo-img {
+    width: 100%;
+    height: 100%;
+}
+.head .nav .links .link-item {
+    list-style-type: none;
+}
+.head .nav .links .link-item a {
+    text-decoration: none;
+}
+.head .header {
+    height: 87.5vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(41, 39, 39, 0.4),
+        rgba(74, 72, 72, 0.4)
+      ), url(../images/food\ mani\ page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 60px;
+}
+.head .header .site-name {
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+}
+.head .header .site-description {
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+/* ********************************* End Header Section ******************************* */
+/* ********************************* Start Carts Section (menus) ******************************* */
+.menu {
+    margin-top: 70px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.food-menu {
+    padding: 14px;
+}
+.foods {
+    padding-top: 20px;
+}
+.carts {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.cart {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 1px rgb(174, 173, 173);
+    overflow: hidden;
+}
+.img-container {
+    width: 300px;
+    height: 250px;
+    margin-bottom: 6px;
+}
+.cart-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.drinks {
+    padding-top: 40px;
+}
+.drink {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cart-drink {
+    height: 190px;
+    width: 220px;
+}
+
+
+
+
+/* ********************************* End Carts Section (menus) ******************************* */
+
+

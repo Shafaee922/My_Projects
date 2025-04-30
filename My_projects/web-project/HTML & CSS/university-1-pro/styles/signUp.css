@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f3f3f3;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+  }
+  .logo-container {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  .logo {
+    width: 100%;
+  }
+  .links {
+    display: flex;
+    gap: 2.6rem;
+    list-style-type: none;
+  }
+  .link-item {
+    text-decoration: none;
+    color: #000;
+  }
+  .link-item:hover {
+    color: rgb(255, 42, 0);
+  }
+.container {
+    width: 70%;
+    height: 460px;
+    margin: 20px auto;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    overflow: hidden;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 20px 4px gray;
+}
+.left {
+    background-image: linear-gradient(#f76166, #900d11);
+    width: 35%;
+    height: 100%;
+    text-align: center;
+    padding-top: 110px;
+}
+.hello {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.login {
+    border: none;
+    outline: none;
+    padding: 8px 40px;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #fff;
+}
+.login a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.right {
+    width: 65%;
+    height: 100%;
+    text-align: center;
+}
+.SignUP-form {
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+.right input {
+    padding: 13px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    outline: 0;
+    font-size: 20px;
+}
+.last_child {
+    border: none;
+    background-color: #fc353c;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 18px;
+}

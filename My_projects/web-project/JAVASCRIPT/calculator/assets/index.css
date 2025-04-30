@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgoldenrodyellow;
+}
+.container {
+    height: 100vh;
+    padding-top: 5em;
+}
+.calculator {
+    width: 18em;
+    height: 26em;
+    margin: auto;
+    box-shadow: 3px 4px 15px rgba(35, 35, 35, 0.2), -4px -5px 15px rgba(20, 2, 50, 0.3);
+    border-radius: 1em;
+    background-color: lightpink;
+    padding: 1em;
+}
+.display {
+    margin-top: 0.8em;
+    padding: 1.3em;
+    outline: none;
+    border: none;
+    width: 100%;
+    border-radius: 1em;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    -ms-border-radius: 1em;
+    -o-border-radius: 1em;
+    display: flex;
+}
