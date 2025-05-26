@@ -293,3 +293,225 @@ main header .left input {
     box-sizing: border-box;
 }
 /*  ----------------------------------------- end section two ------------------------------- */
+
+/* Modern Responsive Enhancements */
+@media screen and (max-width: 1200px) {
+    body {
+        grid-template-columns: 250px auto;
+    }
+
+    .section-one {
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 20px;
+    }
+
+    .section-one .cart {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .section-one .cart:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Mobile-First Responsive Design */
+@media screen and (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+        font-size: 16px;
+    }
+
+    aside {
+        height: auto;
+        min-height: auto;
+        padding: 20px 15px;
+    }
+
+    aside .aside-header {
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .menu-cover {
+        margin-top: 20px;
+    }
+
+    .menu-cover .menu h1 {
+        font-size: 18px;
+    }
+
+    .menu-cover .menu ul li {
+        padding: 12px 8px;
+        margin: 8px 0;
+    }
+
+    .menu-cover .menu li a {
+        font-size: 16px;
+    }
+
+    main header {
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    main header .left {
+        width: 100%;
+    }
+
+    main header .left input {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    .right {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .right .icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .right .icons .icon {
+        width: 44px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .right .profile .profile-pic {
+        width: 70px;
+        height: 70px;
+    }
+
+    .right .profile .info h1 {
+        font-size: 18px;
+        margin: 10px 0 5px;
+    }
+
+    .right .profile .info p {
+        font-size: 14px;
+        margin: 5px 0;
+    }
+
+    .section-one {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .section-one .cart {
+        padding: 20px;
+    }
+
+    .section-one .cart .cart-icon {
+        width: 44px;
+        height: 44px;
+    }
+
+    .section-one .cart .cart-text {
+        margin-top: 15px;
+    }
+
+    .section-one .cart .cart-text .right-text h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .section-one .cart .cart-text .right-text p {
+        font-size: 14px;
+    }
+
+    .section-two {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .section-two .chart-one,
+    .section-two .chart-two {
+        padding: 15px;
+        height: 250px;
+    }
+}
+
+/* Additional adjustments for smaller phones */
+@media screen and (max-width: 380px) {
+    body {
+        font-size: 14px;
+    }
+
+    aside {
+        padding: 15px 10px;
+    }
+
+    .menu-cover .menu h1 {
+        font-size: 16px;
+    }
+
+    .menu-cover .menu li a {
+        font-size: 14px;
+    }
+
+    main header .left input {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .right .icons .icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .right .profile .profile-pic {
+        width: 60px;
+        height: 60px;
+    }
+
+    .right .profile .info h1 {
+        font-size: 16px;
+    }
+
+    .right .profile .info p {
+        font-size: 12px;
+    }
+
+    .section-one .cart {
+        padding: 15px;
+    }
+
+    .section-one .cart .cart-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .section-one .cart .cart-text .right-text h2 {
+        font-size: 16px;
+    }
+
+    .section-one .cart .cart-text .right-text p {
+        font-size: 12px;
+    }
+
+    .section-two .chart-one,
+    .section-two .chart-two {
+        height: 200px;
+    }
+}
