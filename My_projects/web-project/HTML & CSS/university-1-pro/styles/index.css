@@ -100,8 +100,6 @@ body {
     url("../images/header-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-.header-main {
   text-align: center;
   padding-top: 9rem;
   text-transform: uppercase;

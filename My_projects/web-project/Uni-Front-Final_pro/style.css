@@ -1,38 +1,88 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
 body {
-    font-family: 'Roboto', sans-serif;
-    font-size: 14px;
-    color: #777777;
-    line-height: 28px;
-    font-weight: 400;
-    background: #ffffff;
-    -webkit-font-smoothing: antialiased;
+    background-color: #f3f3f3;
 }
-.header_top {
-    width: 100%;
-    height: 45px;
-    background-color: rgb(78, 1, 114);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.header_top_right {
-    width: 40%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding-right: 50px;
-    font-size: 15px;
+.h-top {
+    background-color: #4B286D;
+    padding: 15px 0;
     color: #fff;
 }
-.header_top_left {
-    width: 60%;
-    height: 100%;
+.ht-left i {
+    margin-right: 12px;
 }
-.socials {
+.h-bottom {
+    background-color: #fff;
+    position: relative;
+}
+.hb-right {
+    gap: 60px;
+}
+.nav {
+    background-color: yellowgreen;
+    width: 80%;
+    margin: 0 auto;
+    height: 50px;
+    padding-top: 15px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    position: absolute;
+    left: 10%;
+    top: 185px;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+.nav ul li {
     list-style-type: none;
+}
+.nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+.team-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    padding-top: 60px;
+}
+.card {
+    border: 1px solid lightgray;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 250ms;
+    -webkit-transition: all 250ms;
+    -moz-transition: all 250ms;
+    -ms-transition: all 250ms;
+    -o-transition: all 250ms;
+}
+.card:hover {
+    transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    -moz-transform: scale(1.02);
+    -ms-transform: scale(1.02);
+    -o-transform: scale(1.02);
+    box-shadow: 3px 4px 10px 1px gray;
+}
+.team-card-title {
+    font-size: 26px;
+    padding: 10px;
+    color: #090953;
+}
+.team-card-job {
+    padding: 10px;
+    color: #0a0a57;
+    font-weight: bolder;
+}
+.team-card-desc {
+    padding: 10px;
+    color: #838080;
+    text-align: justify;
+}
+.logo {
+    width: 100px;
+    height: 100px;
 }
